@@ -1,5 +1,5 @@
 # nlp-thesaurus
-# Zero-RAM Literary Word Generator & NLP Pipeline
+# Literary Word Generator & NLP Pipeline
 
 The model uses the Gensim Word2Vec library and trains with 5 epochs using sedthh's Project Gutenberg database's full 48,284 paragraphs. To avoid storing the large Gutenberg database all at once, the dataset is streamed from Hugging Face to the model line by line using a text streamer class built from the Datasets library. Within the streamer class, Regex is used to return tokens that have been stripped of whitespace and punctuation and converted to lowercase.
 
