@@ -61,7 +61,7 @@ Similarities for  "melancholy":
 
 ---
 
-## 📚 References & Data Citations
+## References & Data Citations
 * **Corpus Data:** [Project Gutenberg English Language eBooks Dataset](https://huggingface.co) via Richard Nagyfi.
 * **Vector Engine:** Rehurek, R., & Sojka, P. (2010). *Gensim: Topic Modelling for Humans.*
 * **Pipeline Infrastructure:** Lhoest, Q., et al. (2021). *Datasets: A Community Library for Natural Language Processing.*
